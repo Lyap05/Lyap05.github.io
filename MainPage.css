@@ -1,0 +1,107 @@
+html {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: 900;
+	background-image:url("Image/CoffeeShop.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+body {
+	margin: 0px;
+	min-height: 100%;
+	padding-bottom: 50px;
+	position: relative;
+}
+
+#navbar {
+	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.5),rgba(0, 0, 0, 0.1));
+	overflow: hidden;
+	padding: 0 20px;
+	position: static;
+}
+
+#navbar a {
+	float: left;
+	display: block;
+	text-align: center;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	padding: 14px 16px;
+}
+
+#navbar a:hover {
+	color: rgb(255, 147, 23);
+}
+
+.header {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.5);
+	padding: 20px 0 20px 15px;
+}
+
+#Logo {
+	text-align: center;
+}
+
+#navbarright {
+	float: right;
+}
+
+.content {
+	color: rgb(0, 0, 0);
+	display: block;
+	min-height: 100vh;
+	position: relative;
+	width: 100%;
+}
+
+#intro {
+	background-color:rgba(182, 173, 173, 0.493);
+	color:rgb(0, 0, 0);
+	text-align:center;
+	width:100%;
+	position: relative;
+	background-position: center;
+	text-align: center;
+	display: inline-block;
+}
+
+#intro h1 {
+	margin-left: auto;
+	margin-right:auto;
+	text-align: center;
+	font-size: 2em;
+	position: static;
+}
+
+#intro hr{
+	background-color:black;
+}
+
+#s1{
+	color:red;
+}
+
+#shoplayout {
+	background-color:rgba(182, 173, 173, 0.493);
+	width:100%;
+	margin-right:auto;
+	margin-left:auto;
+	text-align: center;
+}
+
+#shoplayout img {
+	margin:2vh;
+}
+
+.footer {
+	text-align: center;
+	color:white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 50px;
+	background-color: rgb(0, 0, 0, 0.5);
+}
