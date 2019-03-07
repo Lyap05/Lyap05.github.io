@@ -133,3 +133,16 @@ body {
 .beverage,.food	{
 	display:inline-block;
 }
+
+#Clink{
+	color:black;
+}
+
+#Clink a{
+	text-decoration:none;
+	color:black;
+}
+
+#Clink a:hover{
+	color: rgb(255, 147, 23);
+}
