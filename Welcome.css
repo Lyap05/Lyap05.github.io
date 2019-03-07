@@ -53,7 +53,7 @@ html, body {
 }
 
 #Clink{
-	color:white;
+	background-color: rgb(0, 0, 0, 0.5);
 }
 
 #Clink a{
