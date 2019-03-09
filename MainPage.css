@@ -1,7 +1,7 @@
 html {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	font-weight: 900;
-	background-image:url("Image/CoffeeShop.jpg");
+	background-image: url("Image/CoffeeShop.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 }
@@ -13,8 +13,11 @@ body {
 	position: relative;
 }
 
+#top {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
 #navbar {
-	background-image: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.5),rgba(0, 0, 0, 0.1));
 	overflow: hidden;
 	padding: 0 20px;
 	position: static;
@@ -36,13 +39,15 @@ body {
 
 .header {
 	text-align: center;
-	background-color: rgba(0, 0, 0, 0.5);
 	padding: 20px 0 20px 15px;
 }
 
-#Logo {
-	text-align: center;
+.responsive{
+	width:100%;
+	max-width:600px;
+	height:auto;
 }
+
 
 #navbarright {
 	float: right;
@@ -57,10 +62,10 @@ body {
 }
 
 #intro {
-	background-color:rgba(182, 173, 173, 0.493);
-	color:rgb(0, 0, 0);
-	text-align:center;
-	width:100%;
+	background-color: rgba(182, 173, 173, 0.493);
+	color: rgb(0, 0, 0);
+	text-align: center;
+	width: 100%;
 	position: relative;
 	background-position: center;
 	text-align: center;
@@ -69,30 +74,30 @@ body {
 
 #intro h1 {
 	margin-left: auto;
-	margin-right:auto;
+	margin-right: auto;
 	text-align: center;
 	font-size: 2em;
 	position: static;
 }
 
-#intro hr{
-	background-color:black;
+#intro hr {
+	background-color: black;
 }
 
-#s1{
-	color:red;
+#s1 {
+	color: red;
 }
 
 #shoplayout {
-	background-color:rgba(182, 173, 173, 0.493);
-	width:100%;
-	margin-right:auto;
-	margin-left:auto;
+	background-color: rgba(182, 173, 173, 0.493);
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
 	text-align: center;
 }
 
 #shoplayout img {
-	margin:2vh;
+	margin: 2vh;
 }
 
 footer {
@@ -103,15 +108,15 @@ footer {
 	right: 0;
 	bottom: 0;
 	height: 100px;
-	padding:25px;
-	background-color:rgba(0,0,0,0.5);
+	padding: 25px;
+	background-color: rgba(0, 0, 0, 0.5);
 }
 
-footer a{
-	text-decoration:none;
-	color:white;
+footer a {
+	text-decoration: none;
+	color: white;
 }
 
-footer a:hover{
+footer a:hover {
 	color: rgb(255, 147, 23);
 }
