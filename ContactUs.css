@@ -113,3 +113,24 @@ body {
     text-align:center;
     color:white;
 }
+
+footer {
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100px;
+	padding:25px;
+	background-color:rgba(0,0,0,0.5);
+}
+
+footer a{
+	text-decoration:none;
+	color:white;
+}
+
+footer a:hover{
+	color: rgb(255, 147, 23);
+}
