@@ -134,16 +134,23 @@ body {
 	display:inline-block;
 }
 
-#Clink p{
-	color:black;
-	background-color: rgb(0, 0, 0, 0.5);
+footer {
+	text-align: center;
+	color: white;
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100px;
+	padding:25px;
+	background-color:rgba(0,0,0,0.5);
 }
 
-#Clink a{
+footer a{
 	text-decoration:none;
-	color:black;
+	color:white;
 }
 
-#Clink a:hover{
+footer a:hover{
 	color: rgb(255, 147, 23);
 }
