@@ -42,14 +42,17 @@ body {
 }
 
 .responsive{
-	width:100%;
-	max-width:600px;
+	max-width:100%;
 	height:auto;
 }
 
 
 #navbarright {
 	float: right;
+}
+
+h1{
+	color:white;
 }
 
 .content {
@@ -61,7 +64,6 @@ body {
 }
 
 #intro {
-	background-color: rgba(182, 173, 173, 0.493);
 	color: rgb(0, 0, 0);
 	text-align: center;
 	width: 100%;
@@ -88,7 +90,6 @@ body {
 }
 
 #shoplayout {
-	background-color: rgba(182, 173, 173, 0.493);
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
