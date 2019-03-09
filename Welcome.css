@@ -43,7 +43,7 @@ html, body {
 	color: rgb(255, 147, 23);
 }
 
-.footer {
+footer {
 	text-align: center;
 	color: white;
 	position: absolute;
@@ -51,11 +51,11 @@ html, body {
 	right: 0;
 	bottom: 0;
 	height: 50px;
-	background-color:pink;
 	padding:25px;
+	background-color:rgba(0,0,0,0.5);
 }
 
-#Clink a{
+footer a{
 	text-decoration:none;
 	color:white;
 }
