@@ -15,7 +15,7 @@ body {
 
 #top {
 	background-color: rgba(0, 0, 0, 0.5);
-	text-align:center;
+	text-align: center;
 }
 
 #navbar {
@@ -42,18 +42,17 @@ body {
 	padding: 20px 0 20px 15px;
 }
 
-.responsive{
-	max-width:100%;
-	height:auto;
+.responsive {
+	max-width: 100%;
+	height: auto;
 }
-
 
 #navbarright {
 	float: right;
 }
 
-h1{
-	color:white;
+h1 {
+	color: white;
 }
 
 .content {
@@ -62,43 +61,35 @@ h1{
 	min-height: 100vh;
 	position: relative;
 	width: 100%;
+	text-align: center;
 }
 
 #intro {
 	color: rgb(0, 0, 0);
-	text-align: center;
 	width: 100%;
-	position: relative;
 	background-position: center;
-	text-align: center;
-	display: inline-block;
 }
 
 #intro h1 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font-size: 2em;
-	position: static;
+	font-size: 4em;
 }
 
-#intro hr {
-	background-color: black;
+.description{
+	color:white;
+	text-align: justify;
+	margin:2em;
+	font-size:140%;
+	padding:2em;
 }
 
-#s1 {
-	color: red;
-}
-
-#part2 {
-	width: 100%;
-	margin-right: auto;
-	margin-left: auto;
-	text-align: center;
-}
-
-#shoplayout img {
-	margin: 2vh;
+.responsive1{
+	height:300px;
+	width:100%;
+	max-width: 400px;
+	margin-left:25px;
 }
 
 footer {
